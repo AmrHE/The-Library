@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <title>Library</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="bookFavicon.png">
+    </head>
+
+    <body>
+        <div id="background-image"></div>
+        <div id="page-container">
+            <h1>Dark <span id="dark">Library.</span></h1>
+
+            <button id="new-book" class="btn jsBtn" value="new-book" name="new-book">Add New Book</button>
+        
+            <div id="input-modal" class="modal">
+                <div id="input-form">
+                    <form>
+                        <label for="title">Title:</label>
+                        <br>
+                        <input type="text" id="title" class="entry" name="title" placeholder="Enter Book Title">
+                        <br>
+
+                        <label for="author">Author:</label>
+                        <br>
+                        <input id="author" class="entry" name="author" type="text" placeholder="Enter Author">
+                        <br>
+
+                        <label for="pages">Number Of Pages:</label>
+                        <br>
+                        <input id="pages" class="entry" name="pages" type="number" placeholder="Number Of Pages">
+                        <br>
+
+                        <label for="read">Have you read it?</label>
+                        <br>
+                        <input id="read" name="read" type="checkbox">
+                        <br>
+
+                        <input id="submit" type="button" class="btn jsBtn" name="submit" value="Submit">
+                        <br>
+                        <button id="cancel" type ="button" class="btn jsBtn" name="cancel">Cancel</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div id="card-container">
+
+
+
+
+            </div>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
